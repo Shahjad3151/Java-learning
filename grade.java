@@ -1,23 +1,27 @@
+/*
 import java.util.*;
 public class grade {
-    public static void main (String args[]) {
-        int num;                                             // grade problem
-        Scanner obj = new Scanner(System.in);     
-        System.out.print("enter the  number "); 
-        num=obj.nextInt();
-     
-        if(num>80 && num<=100)
-        {
-            System.out.println("grade A");
-        }
-        else if(num>60 && num<=80)
-        {
-            System.out.println("grade B");
-        }
-        else
-        {
-            System.out.println("grade c");
-        }
-    obj.close();
+    public static void main(String args[]){
+    int n;
+    System.out.println("enter marks");
+    Scanner obj=new Scanner(System.in);
+    n=obj.nextInt();
+    
+    if(n>=90)
+    {
+        System.out.println("Grade A");
+    }
+    if(n>=70 && n<90)
+    {
+        System.out.println("Grade B");
+    }
+    if(n>=50 && n<70)
+    {
+        System.out.println("Grade C");
+    }
+    if(n<50)
+    {
+        System.out.println("fail");
+    }
 }
-}
+}*/
