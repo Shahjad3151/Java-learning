@@ -1,28 +1,26 @@
-
+/*
 import java.util.Scanner;
 
-public class prime{
+public class prime {
     public static void main(String args[]){
-    int n,i,j,count;
-    System.out.println("enter number");
-    Scanner obj=new Scanner(System.in);
-    n=obj.nextInt();
+        int i,n;
+        System.out.println("enter the number"); //prime number jo khudse & 1 se divisible
+        Scanner sc = new Scanner(System.in);
       
-       for(i=2;i<=n;i++)
-       {
-        count=0;
-        for(j=2;j<i;j++)
-        {
-        if(i%j==0)
-        {
-            count++;
+        n=sc.nextInt();
+        for(i=2;i<n;i++)
+        {   
+            if (n%i==0)
+            {
+            System.out.println(" not prime number ");
             break;
+            }
+            else
+            {
+            System.out.println("  prime number ");
+            break;
+            }
         }
-        }       
-       if(count==0)
-       {
-        System.out.println(i);
-       }
-    }
-    }
+        sc.close();
 }
+}*/
