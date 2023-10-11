@@ -1,3 +1,4 @@
+/*
 public class power {
     public static void main(String args[])
     {
@@ -5,3 +6,4 @@ public class power {
         System.out.println(Math.pow(a,b));
     }
 }
+*/
