@@ -12,6 +12,6 @@ public class vowel {
     System.out.println("vowels");
     else
     System.out.println("constonat");
-
+    sc.close();
 }
 }
