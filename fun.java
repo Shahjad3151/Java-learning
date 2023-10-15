@@ -1,4 +1,4 @@
-
+/*
 import java.util.Scanner;
 
 public class fun {
@@ -18,4 +18,4 @@ void display(){
     avg=(a+b+c+d+e)/5;
     System.out.println(avg);
 }
-}
+}*/
